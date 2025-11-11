@@ -1,1 +1,30 @@
-streamlit
+streamlit>=1.28.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+PyPDF2>=3.0.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+google-cloud-aiplatform>=1.38.0
+psycopg2-binary>=2.9.0
+redis>=5.0.0
+lxml>=4.9.0
+```
+
+### **2. Update `streamlit_app.py`**
+Copy the complete Streamlit app code from the artifact above (the section labeled "FILE: streamlit_app.py")
+
+### **3. Create new file: `real_hotel_scraper.py`**
+Copy the code from my "Real Hotel Website Scraper" artifact
+
+### **4. Create new file: `hotel_scraper.py`**
+Copy the code from the "Hotel Website Scraper & Data Ingestion System" artifact
+
+### **5. Update `README.md`**
+Replace with the new README from the artifact above
+
+### **6. Update `.gitignore`**
+Add these lines if not already there:
+```
+scraped_*.json
+*.json
+.streamlit/secrets.tomlstreamlit
